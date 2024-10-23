@@ -4,9 +4,9 @@ import Maincom from "./components/Maincom";
 
 export default function App() {
     return (
-        <>
+        <div className="cont-page">
             <Navbar/>
             <Maincom/>
-        </>
+        </div>
     )
 }
